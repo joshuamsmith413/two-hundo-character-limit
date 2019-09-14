@@ -1,0 +1,122 @@
+#home {
+  display: grid;
+  grid-template-columns: repeat(2, 3fr);
+}
+
+.centereddiv {
+  text-align: left;
+  padding-left: 20%;
+  padding-right: 20%;
+  padding-bottom: 20%;
+  padding-top: 20%;
+}
+
+/*****************
+BlueWelcome container
+******************/
+
+#BlueWelcome {
+  background: #1da1f2;
+  color: white;
+}
+
+#tackyheadline {
+  font-size: 27px;
+  font-weight: bold;
+  line-height: 32px;
+  margin-bottom: 16px;
+  margin-top: 32px;
+}
+
+#underheadline {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+  margin-bottom: 48px;
+}
+
+#basicfeatures .headers {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 24px;
+}
+
+#basicfeatures .text {
+  font-size: 14px;
+  line-height: 20px;
+  padding-bottom: 10%;
+}
+
+/**********************
+      LoginSide
+***********************/
+
+#LoginSide {
+
+}
+
+#loginform {
+  text-align: center;
+  padding-top: 5%;
+  font-weight: normal;
+}
+
+#enticingstatement {
+  font-size: 27px;
+  line-height: 32px;
+  padding-top: 10%;
+  padding-bottom: 10%;
+  font-weight: bold;
+}
+
+#joinnow {
+  font-size: 18px;
+  padding-top: 10%;
+  font-weight: bold;
+}
+
+/*********************
+      Signup form
+**********************/
+
+#signupcontainer {
+  position: absolute; top: 0; left: 0; height: 100%; width: 100%;
+  background: #1da1f2;
+}
+
+#signupform h4 {
+  color: white;
+}
+
+#signupcontainer i {
+  padding-left: 40px;
+  padding-top: 20px;
+}
+
+#signupform {
+  padding-top: 10%;
+  text-align: center;
+}
+
+input[type="text" i], input[type="password" i] {
+  width: 200px;
+  height: 50px;
+  text-align: center;
+}
+
+/*******************
+    Footer
+********************/
+
+#footer {
+  grid-column: 1 / span 2;
+  text-align: center;
+  color: gray;
+  font-weight: lighter;
+  position:fixed;
+  left:0px;
+  bottom:0px;
+  height:30px;
+  width:100%;
+  background: #f8f8f8;
+}
